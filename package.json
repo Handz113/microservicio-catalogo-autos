@@ -1,0 +1,26 @@
+{
+  "name": "microservice-car-catalog",
+  "version": "1.0.0",
+  "description": "Microservicio RESTful para catálogo de automóviles listo para producción en Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "microservice",
+    "express",
+    "nodejs",
+    "rest-api",
+    "render"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
