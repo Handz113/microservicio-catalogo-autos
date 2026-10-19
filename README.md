@@ -42,7 +42,7 @@ El microservicio implementa una arquitectura por capas basada en patrones están
 
 2. **Instalar dependencias:**
    ```bash
-   npm install
+   pnpm install
    ```
 
 3. **Configurar las variables de entorno:**
@@ -58,12 +58,12 @@ El microservicio implementa una arquitectura por capas basada en patrones están
 
 4. **Iniciar el servidor en modo desarrollo (con recarga automática):**
    ```bash
-   npm run dev
+   pnpm run dev
    ```
 
 5. **Iniciar en modo estándar / producción:**
    ```bash
-   npm start
+   pnpm start
    ```
 
 El servicio estará escuchando en `http://localhost:3000`.
